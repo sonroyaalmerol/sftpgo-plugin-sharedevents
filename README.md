@@ -1,6 +1,6 @@
-# SFTPGo events store plugin
+# SFTPGo shared events store plugin
 
-![Build](https://github.com/sftpgo/sftpgo-plugin-eventstore/workflows/Build/badge.svg?branch=main&event=push)
+![Build](https://github.com/sonroyaalmerol/sftpgo-plugin-sharedevents/workflows/Build/badge.svg?branch=main&event=push)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 This plugin allows to store [SFTPGo](https://github.com/drakkan/sftpgo/) filesystem and provider events in supported database engines. It is not meant to react to `pre-*` events.
@@ -11,10 +11,10 @@ The plugin can be configured within the `plugins` section of the SFTPGo configur
 
 ```shell
 NAME:
-   sftpgo-plugin-eventstore serve - Launch the SFTPGo plugin, it must be called from an SFTPGo instance
+   sftpgo-plugin-sharedevents serve - Launch the SFTPGo plugin, it must be called from an SFTPGo instance
 
 USAGE:
-   sftpgo-plugin-eventstore serve [command options] [arguments...]
+   sftpgo-plugin-sharedevents serve [command options] [arguments...]
 
 OPTIONS:
    --driver value       Database driver (required) [$SFTPGO_PLUGIN_EVENTSTORE_DRIVER]
@@ -71,7 +71,7 @@ This is an example configuration.
         "retry_max_time": 60,
         "retry_queue_max_size": 1000
       },
-      "cmd": "<path to sftpgo-plugin-eventstore>",
+      "cmd": "<path to sftpgo-plugin-sharedevents>",
       "args": ["serve", "--driver", "postgres"],
       "sha256sum": "",
       "auto_mtls": true
