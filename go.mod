@@ -1,4 +1,4 @@
-module github.com/sftpgo/sftpgo-plugin-eventstore
+module github.com/sonroyaalmerol/sftpgo-plugins-sharedevents
 
 go 1.22.2
 

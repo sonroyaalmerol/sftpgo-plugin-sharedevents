@@ -26,9 +26,9 @@ import (
 	"github.com/sftpgo/sdk/plugin/notifier"
 	"github.com/urfave/cli/v2"
 
-	"github.com/sftpgo/sftpgo-plugin-eventstore/db"
-	"github.com/sftpgo/sftpgo-plugin-eventstore/db/migration"
-	"github.com/sftpgo/sftpgo-plugin-eventstore/logger"
+	"github.com/sonroyaalmerol/sftpgo-plugin-sharedevents/db"
+	"github.com/sonroyaalmerol/sftpgo-plugin-sharedevents/db/migration"
+	"github.com/sonroyaalmerol/sftpgo-plugin-sharedevents/logger"
 )
 
 const (

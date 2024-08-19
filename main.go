@@ -17,7 +17,7 @@ package main
 import (
 	"os"
 
-	"github.com/sftpgo/sftpgo-plugin-eventstore/cmd"
+	"github.com/sonroyaalmerol/sftpgo-plugin-sharedevents/cmd"
 )
 
 func main() {

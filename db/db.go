@@ -31,7 +31,7 @@ import (
 	"gorm.io/gorm"
 	gormlogger "gorm.io/gorm/logger"
 
-	"github.com/sftpgo/sftpgo-plugin-eventstore/logger"
+	"github.com/sonroyaalmerol/sftpgo-plugin-sharedevents/logger"
 )
 
 const (

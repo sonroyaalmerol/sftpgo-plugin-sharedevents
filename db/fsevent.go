@@ -20,7 +20,7 @@ import (
 	"github.com/rs/xid"
 	"gorm.io/gorm"
 
-	"github.com/sftpgo/sftpgo-plugin-eventstore/logger"
+	"github.com/sonroyaalmerol/sftpgo-plugin-sharedevents/logger"
 )
 
 // FsEvent defines a filesystem event

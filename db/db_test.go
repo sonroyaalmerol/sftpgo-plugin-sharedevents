@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sftpgo/sftpgo-plugin-eventstore/db/migration"
+	"github.com/sonroyaalmerol/sftpgo-plugin-sharedevents/db/migration"
 )
 
 func TestMain(m *testing.M) {

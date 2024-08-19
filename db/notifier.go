@@ -17,7 +17,7 @@ package db
 import (
 	"github.com/sftpgo/sdk/plugin/notifier"
 
-	"github.com/sftpgo/sftpgo-plugin-eventstore/logger"
+	"github.com/sonroyaalmerol/sftpgo-plugin-sharedevents/logger"
 )
 
 type Notifier struct {
